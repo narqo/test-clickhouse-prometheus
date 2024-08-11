@@ -1,0 +1,8 @@
+scrape_configs:
+  - job_name: clickhouse-server
+    static_configs:
+      - targets: ['clickhouse-server:9363']
+
+remote_write:
+  - name: clickhouse-prom
+    url: http://clickhouse-server:9363/write

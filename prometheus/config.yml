@@ -1,0 +1,3 @@
+remote_read:
+  - name: clickhouse-prom
+    url: http://clickhouse-server:9363/read

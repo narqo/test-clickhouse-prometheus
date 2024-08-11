@@ -1,0 +1,1 @@
+CREATE TABLE time_series_table ENGINE=TimeSeries
